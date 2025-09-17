@@ -1,10 +1,11 @@
-const b = 1;
-const a = 5;
-const c = sum(a,b);
-
-function sum (a,b)
+function func()
 {
-    return a+b;
+    console.log(a+b);
+    a = 3;
+    b = 5;
+    console.log(a+b);
+    var a;
+    var b;
 }
 
-console.log(c);
+func();
