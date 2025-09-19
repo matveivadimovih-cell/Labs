@@ -1,5 +1,3 @@
-
-
 function inc(num)
 {
     num.n++;
