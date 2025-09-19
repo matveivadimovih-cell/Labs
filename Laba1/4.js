@@ -6,7 +6,8 @@ function func(b)
     for (const el of b)
     {
         const t = typeof el;
-        a[t] = (a[t] || 0) +1;
+        if(a[t]!==undefined) a[t]++;
+        else a[t]=1;
     }
     return a;
 };
