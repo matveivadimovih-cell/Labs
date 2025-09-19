@@ -5,9 +5,8 @@ function func(b)
     const a = {};
     for (const el of b)
     {
-        const type = typeof el;
-        const num = a[type] || 0;
-        a[type] = num+1;
+        const t = typeof el;
+        a[t] = (a[t] || 0) +1;
     }
     return a;
 };

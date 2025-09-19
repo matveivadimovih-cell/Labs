@@ -2,10 +2,7 @@
 
 function inc(num)
 {
-    if(typeof num==='object')
-    {
-        num.n++;
-    }
+    num.n++;
 }
 
 const obj = { n: 5 }; 
