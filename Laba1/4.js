@@ -8,8 +8,8 @@ function func(b)
         const t = typeof el;
         if(a[t]!==undefined) a[t]++;
         else a[t]=1;
-    }
-    return a;
+    } 
+    return  a;
 };
 
 console.log(func(b));
